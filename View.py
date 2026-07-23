@@ -37,3 +37,9 @@ from django.contrib import admin
 from .models import Course
 
 admin.site.register(Course)
+
+
+<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'courses' %}">Courses</a>
+<a href="{% url 'login' %}">Login</a>
+<a href="{% url 'signup' %}">Sign Up</a>
