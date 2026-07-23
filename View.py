@@ -126,3 +126,26 @@ admin.site.register(Course)
 </div>
 
 {% endblock %}
+
+
+
+//home
+<div class="mt-4">
+    <a href="#" class="btn btn-primary btn-lg me-3">
+        Browse Courses
+    </a>
+
+    <a href="#" class="btn btn-outline-dark btn-lg">
+        Join Now
+    </a>
+</div>
+
+<div class="mt-4">
+    <a href="{% url 'courses' %}" class="btn btn-primary btn-lg me-3">
+        Browse Courses
+    </a>
+
+    <a href="{% url 'signup' %}" class="btn btn-outline-dark btn-lg">
+        Join Now
+    </a>
+</div>
