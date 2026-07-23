@@ -28,3 +28,12 @@ class Course(models.Model):
 
     def __str__(self):
         return self.title
+
+
+
+core/admin.py
+
+from django.contrib import admin
+from .models import Course
+
+admin.site.register(Course)
